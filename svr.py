@@ -38,7 +38,7 @@ def predict_price(dates, prices, x):
 	return svr_rbf.predict(np.array(x).reshape(-1,1))[0], svr_lin.predict(np.array(x).reshape(-1,1))[0], svr_poly.predict(np.array(x).reshape(-1,1))[0]
 
 get_data('goog.csv') # calling get_data method by passing the csv file to it
-get_data('all_stocks_5yr.csv')
+# get_data('all_stocks_5yr.csv')
 print("Dates- ", dates)
 print("Prices- ", prices)
 

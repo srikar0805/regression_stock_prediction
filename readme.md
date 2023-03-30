@@ -5,4 +5,4 @@ Regression analysis is a statistical tool for investigating the relationship bet
 
 Toy example for learning how to combine numpy, scikit-learn and matplotlib. Can be extended to be more advanced.
 
-![SVR](plots/svr .png)
+![SVR](plots/svr.png)

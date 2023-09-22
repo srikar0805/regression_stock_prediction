@@ -5,4 +5,9 @@ Regression analysis is a statistical tool for investigating the relationship bet
 
 Toy example for learning how to combine numpy, scikit-learn and matplotlib. Can be extended to be more advanced.
 
+rbf kernel = e^(-(||X - ||^2)/2*σ^2)
+polynomial kernel = (c+X_1^T*X_2)^b          note: here c is a constant and b = degree of kernel
+linear kernel = m*x+c
+
+
 ![SVR](plots/svr.png)
